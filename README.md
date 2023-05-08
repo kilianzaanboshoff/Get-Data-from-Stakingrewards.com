@@ -1,6 +1,6 @@
-#Historical Staking Data Web App using StakingRewards.com
+# Historical Staking Data Web App using StakingRewards.com
 
-This is a web application built using Streamlit that allows users to fetch historical data for various assets on StakingRewards.com. It uses the Staking Rewards public API to fetch data for multiple assets at a time.
+This is a web application built using Streamlit that allows users to fetch historical data for various assets on StakingRewards.com. It uses the Staking Rewards  API to fetch data for multiple assets at a time.
 
 The app allows the user to enter the slug of the asset they want historical data for, the metric of the asset they want historical data for, and the date range they are looking for. When inputting multiple assets, the user can separate them by a comma without a space.
 
