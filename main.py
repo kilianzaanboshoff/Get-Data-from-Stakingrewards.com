@@ -31,9 +31,9 @@ today = date.today()
 
 url = 'https://api.stakingrewards.com/public/query'
 
-api_key = st.text_input("Enter your API key", type="password") # add an input box for API key
+api_key = st.text_input("Enter your API key", type="password") 
 
-headers = {"X-API-Key": api_key} # use the API key in the headers
+headers = {"X-API-Key": api_key} 
 
 query = """
 query getHistoricalMetrics($slugs:[String!],$limit:Int,$offset:Int, $metricKeys:[String!],$timeStart:Date, $isActive:Boolean){
@@ -126,7 +126,6 @@ compare_button = st.button("Get my Data!")
 
 st.markdown("---")
 
-# ... (rest of the code remains the same)
 
 if compare_button:
     slugs = slugs_input.split(',')
@@ -138,7 +137,7 @@ if compare_button:
     current_date = start_date
     processed_days = 0
 
-    progress_bar = st.progress(0)  # Create a progress bar
+    progress_bar = st.progress(0)  
 
     with st.spinner("Loading..."):
         while current_date <= end_date:
@@ -147,9 +146,9 @@ if compare_button:
             current_date += timedelta(days=1)
             processed_days += 1
 
-            # Update the progress bar
+           
             progress = processed_days / total_days
-            progress_bar.progress(progress)  # Update the progress bar value
+            progress_bar.progress(progress) 
 
     st.balloons()
     prepare_and_display_data(assets_data, metrics)
