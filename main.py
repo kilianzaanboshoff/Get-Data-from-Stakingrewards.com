@@ -111,7 +111,7 @@ st.markdown("""
 
 st.markdown("""
 <div class="link-container">
-    <a href="https://docs.google.com/spreadsheets/d/1Jz46jlCfPWav6Ia9Hrmdv33215v8iUz9508LR8HKyE8/edit?usp=sharing" target="_blank">🔍️ View available slugs and metrics that you can query for each asset</a>
+    <a href="https://docs.google.com/spreadsheets/d/1BJD_bgKz81l0waXKqodZazBqdqaZPyFpb-HbL7el9h0/edit#gid=0" target="_blank">🔍️ View available slugs and metrics that you can query for each asset</a>
 </div>
 """, unsafe_allow_html=True)
 
